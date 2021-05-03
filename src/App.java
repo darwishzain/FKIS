@@ -31,6 +31,8 @@ public class App {
         approve a = new approve();//test comment
         audit d = new audit();
         register u = new register();
+        
+        r.WriteReport();
 
         GUI();
     }

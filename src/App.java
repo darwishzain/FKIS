@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class App {
-    public static void GUI(){
+    /*public static void GUI(){
         JFrame frame = new JFrame("FKIS");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(960,540);
@@ -24,16 +24,18 @@ public class App {
         frame.getContentPane().add(loginPanel);
         frame.setVisible(true);
     }
+    */
+    //yg commented atas ni user interface. Darwish :]
     public static void main(String[] args) throws Exception {
         request b = new request();
         order o = new order();
         report r = new report();
-        approve a = new approve();//test comment
+        approve a = new approve();
         audit d = new audit();
         register u = new register();
         
         r.WriteReport();
 
-        GUI();
+        //GUI(); //kalau nk run gui
     }
 }

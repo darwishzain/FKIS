@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class report 
+public class report {
+Scanner sc=new Scanner(System.in);
+
+public void WriteReport()
 {
-  Scanner sc=new Scanner(System.in);
-  public void WriteReport()
-  {
   System.out.print("WRITE REPORT INTERFACE/n");
   System.out.print("Enter Report ID:");
   String Report_ID=sc.next();
@@ -16,14 +16,17 @@ public class report
   String Audit_ID=sc.next();
   System.out.print("Enter Order ID:");
   String Order_ID=sc.next();
-  }
+}
     
-  public void DisplayFinalReport()
-  {
-    System.out.println("Report ID:"+Report_ID);
-    System.out.println("Report Date:"+Report_Date);
-    System.out.println("Approved Booking:"+Approved_Booking);
-    System.out.println("Audit ID:"+Audit_Date);
-    System.out.println("Order ID:"+Order_ID);
-  }
+public void DisplayFinalReport()
+{
+  /*
+  System.out.println("Report ID:"+Report_ID);
+  System.out.println("Report Date:"+Report_Date);
+  System.out.println("Approved Booking:"+Approved_Booking);
+  System.out.println("Audit ID:"+Audit_Date);
+  System.out.println("Order ID:"+Order_ID);
+  */
+}
+
 }

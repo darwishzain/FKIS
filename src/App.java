@@ -1,10 +1,10 @@
 
-
+import java.sql.*;
 import javax.swing.*;
 import java.awt.*;
 
 public class App {
-    /*public static void GUI(){
+    public static void GUI(){
         JFrame frame = new JFrame("FKIS");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(960,540);
@@ -12,8 +12,8 @@ public class App {
         loginUI(frame);
     }
     public static void loginUI(JFrame frame){
-        JTextField userId = new JTextField("",20);
-        JTextField userPwd = new JTextField("",20);
+        JTextField userId = new JTextField("ID",20);
+        JTextField userPwd = new JTextField("Password",20);
         JButton loginBtn = new JButton("Log In");
         JPanel loginPanel = new JPanel();
 
@@ -24,9 +24,10 @@ public class App {
         frame.getContentPane().add(loginPanel);
         frame.setVisible(true);
     }
-    */
-    //yg commented atas ni user interface. Darwish :]
+    
     public static void main(String[] args) throws Exception {
+        GUI();//Launch the graphic user interface
+
         request b = new request();
         order o = new order();
         report r = new report();
@@ -36,6 +37,6 @@ public class App {
         
         r.WriteReport();
 
-        //GUI(); //kalau nk run gui
+        
     }
 }

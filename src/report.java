@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class report {
 Scanner sc=new Scanner(System.in);
-
+/*
 public void WriteReport()
 {
   System.out.print("WRITE REPORT INTERFACE/n");
@@ -17,7 +17,7 @@ public void WriteReport()
   System.out.print("Enter Order ID:");
   String Order_ID=sc.next();
 }
-    
+*/   
 public void DisplayFinalReport()
 {
   /*
